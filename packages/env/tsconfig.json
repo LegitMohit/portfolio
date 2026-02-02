@@ -1,0 +1,3 @@
+{
+  "extends": "@mohitSharmaPortfolio/config/tsconfig.base.json"
+}

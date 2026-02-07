@@ -12,7 +12,7 @@ export default function Home() {
         <div className="relative w-28 h-28 md:w-32 md:h-32 mb-2">
           <div className="absolute inset-0 bg-primary/20 blur-2xl rounded-full -z-10" />
           <Image
-            src="/mohitSharmaProfileImage.jpg"
+            src="/MohitSharmaProfileImage.jpg"
             alt="Mohit Sharma"
             width={128}
             height={128}
@@ -34,7 +34,7 @@ export default function Home() {
 
         {/* Bio */}
         <p className="max-w-2xl text-lg md:text-xl text-muted-foreground leading-relaxed">
-          Full Stack Developer experienced in building scalable, high-performance applications using Next.js, Node.js, and PostgreSQL. Skilled in responsive UI design, secure API development, and efficient database architecture, with a strong focus on clean, maintainable code and performance. 
+          Full Stack Developer experienced in building scalable, high-performance applications using Next.js, Node.js, and PostgreSQL. Skilled in responsive UI design, secure API development, and efficient database architecture, with a strong focus on clean, maintainable code and performance.
         </p>
 
         {/* CTAs */}

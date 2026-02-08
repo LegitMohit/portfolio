@@ -1,5 +1,6 @@
 import { HomeSection } from "@/components/home-section";
 import { AboutMe } from "@/components/about-me";
+import { Services } from "@/components/services";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       </main>
 
       <AboutMe />
+      <Services />
     </div>
   );
 }

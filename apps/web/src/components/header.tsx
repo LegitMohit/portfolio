@@ -41,7 +41,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 md:px-12 backdrop-blur-md bg-background/50 border-b border-border/40 md:bg-transparent md:backdrop-blur-none md:border-none">
+      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 md:px-12 backdrop-blur-md bg-background/50 border-b border-border/40 rounded-b-[20px] md:rounded-none md:bg-transparent md:backdrop-blur-none md:border-none">
         {/* Logo */}
         <Link href="/" className="text-xl md:text-2xl font-bold tracking-tight">
           Mohit_Sharma

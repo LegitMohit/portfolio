@@ -31,7 +31,6 @@ export default function Header() {
     { to: "/", label: "Home" },
     { to: "#about", label: "About me" },
     { to: "#services", label: "Services" },
-    { to: "#work", label: "My Work" },
     { to: "#contact", label: "Contact me" },
   ] as const;
 

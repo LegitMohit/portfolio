@@ -45,7 +45,7 @@ export function AboutMe() {
 
                 {/* Right: Content */}
                 <div className="lg:col-span-8 flex flex-col gap-8">
-                    <p className="text-lg text-muted-foreground leading-relaxed">
+                    <p className="text-lg text-muted-foreground leading-relaxed text-justify">
                         I am an experienced full stack developer with one year of hands-on professional experience delivering scalable web solutions. I have worked with government organizations, contributing to projects that enhanced efficiency and supported organizational growth.
                     </p>
 

@@ -29,7 +29,7 @@ export function Services() {
             <div className="flex flex-col items-center text-center mb-16 px-4 animate-in fade-in slide-in-from-bottom-4 duration-700 fill-mode-both">
                 <span className="text-muted-foreground font-medium mb-2 tracking-wider">What I offer</span>
                 <h2 className="text-4xl md:text-5xl font-serif">My Services</h2>
-                <p className="mt-4 text-muted-foreground max-w-2xl text-lg leading-relaxed">
+                <p className="mt-4 text-muted-foreground max-w-2xl text-lg leading-relaxed text-justify">
                     Skilled in building and maintaining web applications, developing frontend and backend features, working with databases, fixing bugs, and deploying applications. Comfortable working with modern frameworks, APIs, and version control tools, and capable of collaborating with teams to deliver reliable, well-defined software solutions.
                 </p>
             </div>

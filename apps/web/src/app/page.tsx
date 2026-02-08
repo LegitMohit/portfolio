@@ -1,6 +1,7 @@
 import { HomeSection } from "@/components/home-section";
 import { AboutMe } from "@/components/about-me";
 import { Services } from "@/components/services";
+import { Contact } from "@/components/contact";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 
       <AboutMe />
       <Services />
+      <Contact />
     </div>
   );
 }

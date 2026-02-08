@@ -2,6 +2,7 @@ import { HomeSection } from "@/components/home-section";
 import { AboutMe } from "@/components/about-me";
 import { Services } from "@/components/services";
 import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutMe />
       <Services />
       <Contact />
+      <Footer />
     </div>
   );
 }

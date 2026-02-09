@@ -25,8 +25,11 @@ const ebGaramond = EB_Garamond({
 
 
 export const metadata: Metadata = {
-  title: "mohitSharmaPortfolio",
-  description: "mohitSharmaPortfolio",
+  title: "Mohit Sharma Portfolio",
+  description: "Mohit Sharma's Professional Resume & Portfolio",
+  icons: {
+    icon: "/MohitSharmaProfileImage.jpg",
+  },
 };
 
 export default function RootLayout({

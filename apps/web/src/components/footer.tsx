@@ -14,7 +14,7 @@ export function Footer() {
 
             <div className="max-w-6xl mx-auto">
 
-                <div className="w-full h-px bg-border/40 mb-12" />
+                <div className="w-full h-px bg-border/40 mb-8" />
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="text-muted-foreground text-sm font-medium">
                         © {new Date().getFullYear()} Mohit Sharma. All rights reserved.

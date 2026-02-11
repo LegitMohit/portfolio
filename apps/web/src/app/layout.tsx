@@ -41,10 +41,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} ${ebGaramond.variable} antialiased`}>
         <Providers>
-          <div className="min-h-screen bg-background text-foreground relative overflow-hidden">
-            {/* Background Glow */}
-            <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/5 blur-[120px] rounded-full -z-10" />
-            <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-primary/5 blur-[120px] rounded-full -z-10" />
+          <div className="min-h-screen bg-background text-foreground relative">
+            {/* Background Glows (Fixed to viewport to prevent height issues) */}
+            <div className="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+              <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-primary/5 blur-[120px] rounded-full -translate-x-1/2 -translate-y-1/2" />
+              <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary/5 blur-[120px] rounded-full translate-x-1/2 translate-y-1/2" />
+            </div>
 
             <Header />
             {children}

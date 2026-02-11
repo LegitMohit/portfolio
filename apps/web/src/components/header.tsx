@@ -1,8 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { Button } from "./ui/button";
-import { ArrowUpRight, Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 
@@ -28,34 +27,48 @@ export default function Header() {
   }, [isMenuOpen]);
 
   const links = [
-    { to: "/", label: "Home" },
-    { to: "#about", label: "About me" },
-    { to: "#services", label: "Services" },
-    { to: "#contact", label: "Contact me" },
+    { to: "home", label: "Home" },
+    { to: "about", label: "About me" },
+    { to: "services", label: "Services" },
+    { to: "contact", label: "Contact me" },
   ] as const;
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-4 md:px-12 backdrop-blur-md bg-background/50 border-b border-border/40 rounded-b-[20px] md:rounded-none md:bg-transparent md:backdrop-blur-none md:border-none">
         {/* Logo */}
-        <Link href="/" className="text-xl md:text-2xl font-bold tracking-tight">
+        <a
+          href="#home"
+          onClick={(e) => handleNavClick(e, "home")}
+          className="text-xl md:text-2xl font-bold tracking-tight"
+        >
           Mohit_Sharma
-        </Link>
+        </a>
 
         {/* Desktop Navigation - Centered Pill */}
         <nav className="hidden md:flex items-center gap-1 bg-background/60 backdrop-blur-xl px-4 py-2 rounded-full border border-border shadow-sm">
           {links.map(({ to, label }) => (
-            <Link
+            <a
               key={label}
-              href={to}
+              href={`#${to}`}
+              onClick={(e) => handleNavClick(e, to)}
               className="px-4 py-1.5 text-sm font-medium transition-colors hover:text-primary rounded-full hover:bg-muted"
             >
               {label}
-            </Link>
+            </a>
           ))}
         </nav>
 
@@ -90,14 +103,14 @@ export default function Header() {
       >
         <nav className="flex flex-col items-center gap-6">
           {links.map(({ to, label }) => (
-            <Link
+            <a
               key={label}
-              href={to}
-              onClick={() => setIsMenuOpen(false)}
+              href={`#${to}`}
+              onClick={(e) => handleNavClick(e, to)}
               className="text-2xl font-serif tracking-wide hover:text-primary transition-colors"
             >
               {label}
-            </Link>
+            </a>
           ))}
 
           <div className="flex flex-col items-center gap-4 mt-4">

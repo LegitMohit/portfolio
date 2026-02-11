@@ -27,7 +27,7 @@ export function AboutMe() {
     ];
 
     return (
-        <section id="about" className="py-24 px-6 max-w-6xl mx-auto">
+        <section id="about" className="py-10 md:py-24 px-6 max-w-6xl mx-auto">
             <div className="flex flex-col items-center text-center mb-16">
                 <span className="text-muted-foreground font-medium mb-2">Introduction</span>
                 <h2 className="text-4xl md:text-5xl font-serif">About me</h2>

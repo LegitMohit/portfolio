@@ -41,7 +41,7 @@ export function Contact() {
     };
 
     return (
-        <section id="contact" className="py-24 px-6 max-w-6xl mx-auto">
+        <section id="contact" className="py-10 md:py-24 px-6 max-w-6xl mx-auto">
             <div className="flex flex-col items-center text-center mb-16 px-4 animate-in fade-in slide-in-from-bottom-4 duration-700 fill-mode-both">
                 <span className="text-muted-foreground font-medium mb-2 tracking-wider">
                     Connect with me

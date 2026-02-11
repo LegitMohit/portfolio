@@ -22,7 +22,7 @@ export function HomeSection() {
     const mailtoUrl = "mailto:msharma7744@gmail.com?subject=Regarding%20Opportunity%20%2F%20Collaboration%20%E2%80%93%20From%20Your%20Portfolio&body=Hi%20Mohit,%0A%0AI%20came%20across%20your%20portfolio%20and%20found%20your%20work%20interesting.%0AI%E2%80%99d%20love%20to%20connect%20with%20you%20regarding%20a%20potential%20opportunity%20%2F%20collaboration.%0A%0ABest%20regards,%0A%5BYour%20Name%5D";
 
     return (
-        <div className="flex flex-col items-center text-center space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
+        <section className="flex flex-col items-center text-center space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             {/* Avatar */}
             <div className="relative w-28 h-28 md:w-32 md:h-32 mb-2 flex items-center justify-center">
                 <div className="absolute inset-0 bg-primary/20 blur-2xl rounded-full -z-10" />
@@ -76,6 +76,6 @@ export function HomeSection() {
                     my resume <Download className="w-4 h-4" />
                 </Link>
             </div>
-        </div>
+        </section>
     );
 }

@@ -25,7 +25,7 @@ export function Services() {
     ];
 
     return (
-        <section id="services" className="py-24 px-6 max-w-6xl mx-auto">
+        <section id="services" className="py-10 md:py-24 px-6 max-w-6xl mx-auto">
             <div className="flex flex-col items-center text-center mb-16 px-4 animate-in fade-in slide-in-from-bottom-4 duration-700 fill-mode-both">
                 <span className="text-muted-foreground font-medium mb-2 tracking-wider">What I offer</span>
                 <h2 className="text-4xl md:text-5xl font-serif">My Services</h2>

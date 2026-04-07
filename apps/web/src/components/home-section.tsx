@@ -65,7 +65,8 @@ export function HomeSection() {
                     contact me <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link
-                    href="https://drive.google.com/file/d/1nMchPNU0IJaVR5YhU0sQpHca_03oypr-/view?usp=sharing"
+                   // href="https://drive.google.com/file/d/1nMchPNU0IJaVR5YhU0sQpHca_03oypr-/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1fUfC4jfq_Hwg7jxtz7K5aBJlH25lY8Ei/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={cn(

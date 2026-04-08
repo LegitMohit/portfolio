@@ -48,7 +48,7 @@ export function HomeSection() {
 
             {/* Bio */}
             <p className="max-w-2xl text-lg md:text-xl text-muted-foreground leading-relaxed text-justify">
-                Full Stack Developer experienced in building scalable, high-performance applications using Next.js, Node.js, and PostgreSQL. Skilled in responsive UI design, secure API development, and efficient database architecture, with a strong focus on clean, maintainable code and performance.
+                Full Stack Developer experienced in building scalable, AI-driven and high-performance applications using FastAPI, Next.js, Node.js, and PostgreSQL. Skilled in responsive UI design, secure API development, and efficient database architecture, with a strong focus on clean, maintainable code and performance.
             </p>
 
             {/* CTAs */}

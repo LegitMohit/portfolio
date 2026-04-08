@@ -6,7 +6,7 @@ export function AboutMe() {
         {
             icon: <Code2 className="w-6 h-6" />,
             title: "Languages",
-            description: "TypeScript, React Js, Next Js, Express Js, MongoDB, PostgreSQL",
+            description: "TypeScript, FastAPI, React Js, Next Js, Express Js, MongoDB, PostgreSQL",
         },
         {
             icon: <GraduationCap className="w-6 h-6" />,
@@ -21,9 +21,14 @@ export function AboutMe() {
     ];
 
     const tools = [
-        { name: "VS Code", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }, { name: "MongoDB", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-        { name: "Figma", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+        { name: "React", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+        { name: "VS Code", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { name: "Docker", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
         { name: "Git", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { name: "MongoDB", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+        { name: "PostgreSQL", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+        { name: "Figma", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+        { name: "Claude", src: "/claude-ai-logo.png" },
     ];
 
     return (

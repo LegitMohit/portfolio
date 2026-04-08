@@ -64,8 +64,8 @@ export function HomeSection() {
                 >
                     contact me <ArrowRight className="w-4 h-4" />
                 </Link>
-                <Link
-                    href="https://drive.google.com/file/d/14AoHHvGYsShbwMGewqG2RLlyR4oSC1GX/view"
+                <a
+                    href="/resume/mohitSharmaResume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={cn(
@@ -73,8 +73,8 @@ export function HomeSection() {
                         "rounded-full px-8 h-14 text-base font-medium flex items-center gap-2 bg-background/50 border-2"
                     )}
                 >
-                    my resume <Download className="w-4 h-4" />
-                </Link>
+                    My resume <Download className="w-4 h-4" />
+                </a>
             </div>
         </section>
     );

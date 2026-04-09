@@ -5,7 +5,7 @@ export function AboutMe() {
     const stats = [
         {
             icon: <Code2 className="w-6 h-6" />,
-            title: "Languages",
+            title: "Frameworks",
             description: "TypeScript, FastAPI, React Js, Next Js, Express Js, MongoDB, PostgreSQL",
         },
         {
@@ -33,9 +33,13 @@ export function AboutMe() {
 
     return (
         <section id="about" className="py-10 md:py-24 px-6 max-w-6xl mx-auto">
-            <div className="flex flex-col items-center text-center mb-16">
-                <span className="text-muted-foreground font-medium mb-2">Introduction</span>
-                <h2 className="text-4xl md:text-5xl font-serif">About me</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-12">
+                <div className="lg:col-span-4 flex justify-center"></div>
+                <div className="lg:col-span-8 flex flex-col items-center">
+
+                    <span className="text-muted-foreground font-medium mb-2">Introduction</span>
+                    <h2 className="text-4xl md:text-5xl font-serif">About me</h2>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">

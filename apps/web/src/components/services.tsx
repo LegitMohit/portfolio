@@ -4,22 +4,22 @@ export function Services() {
     const services = [
         {
             title: "Web development",
-            description: "Web development is the process of building, programming, and maintaining websites. It involves creating functional and visually appealing digital experiences.",
+            description: "Skilled in building and maintaining web applications from architecture to deployment. Experienced in developing responsive frontend features, integrating APIs, and optimizing performance using modern frameworks.",
             icon: <Layout className="w-5 h-5 text-white" />,
         },
         {
             title: "UI/UX design",
-            description: "UI/UX design focuses on creating a seamless user experience. It involves understanding user needs and designing intuitive, engaging interfaces.",
+            description: "Adept at translating wireframes into accessible, visually consistent interfaces. Collaborates effectively with designers to bridge design and implementation across all screen sizes.",
             icon: <Palette className="w-5 h-5 text-white" />,
         },
         {
             title: "Backend Services",
-            description: "Backend services are the server-side components of a web application that handle data storage, business logic, and API integrations.",
+            description: "Experienced in building RESTful APIs, backend systems, and database-driven architectures. Proficient in server-side frameworks, authentication, and cloud deployments with clean, maintainable code.",
             icon: <Image className="w-5 h-5 text-white" />,
         },
         {
             title: "Testing & Quality Assurance",
-            description: "Testing & Quality Assurance is the process of evaluating and verifying that a software application meets the specified requirements and quality standards.",
+            description: "Committed to quality through unit, integration, and end-to-end testing. Comfortable in Agile workflows and code reviews to consistently deliver well-validated software.",
             icon: <Smartphone className="w-5 h-5 text-white" />,
         }
     ];
@@ -29,9 +29,7 @@ export function Services() {
             <div className="flex flex-col items-center text-center mb-16 px-4 animate-in fade-in slide-in-from-bottom-4 duration-700 fill-mode-both">
                 <span className="text-muted-foreground font-medium mb-2 tracking-wider">What I offer</span>
                 <h2 className="text-4xl md:text-5xl font-serif">My Services</h2>
-                <p className="mt-4 text-muted-foreground max-w-2xl text-lg leading-relaxed text-justify">
-                    Skilled in building and maintaining web applications, developing frontend and backend features, working with databases, fixing bugs, and deploying applications. Comfortable working with modern frameworks, APIs, and version control tools, and capable of collaborating with teams to deliver reliable, well-defined software solutions.
-                </p>
+               
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
